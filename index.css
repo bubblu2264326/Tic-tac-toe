@@ -1,0 +1,32 @@
+.html,body{
+    height: 100vh;
+    width: 100wh;
+}
+body{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.container{
+   display: flex;
+   flex-wrap: wrap;
+
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    width: 150px;
+}
+.container *{
+    background-color: aquamarine;
+    height: 40px;
+   width: 40px;
+   line-height: 40px;
+   text-align:center;
+   vertical-align: middle;
+   
+}
+button{
+    margin-top: 20px;
+}
